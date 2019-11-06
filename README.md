@@ -1,14 +1,18 @@
 # refactor-challenge
 
-This is a refactoring challenge created for the November 2019 COP meetup "Refactoring Techniques".
+This is a refactoring challenge created for the 12 November 2019 COP meetup "Refactoring Techniques".
 
-The project contains code written in 4 languages (C, C++, C#, Javascript) in desperate need of some refactoring!
+The project contains code written in 4 languages (C, C++, C#, Javascript) in desperate need of some refactoring! The code solves the [Snail Sort problem](#snail-sort-problem) from [codewars](https://www.codewars.com/kata/snail/train/).
 
-The code solves the [Snail Sort problem](#snail-sort-problem) from [codewars](https://www.codewars.com/kata/snail/train/).
+You can assume there are no bugs in the code.... (well, it passes the provided unit tests!)
 
-You can assume there are no bugs in the code (well, it passes the provided unit tests!)
+Your challenge is to refactor the solution in your chosen language. GOOD LUCK! 
 
-Your challenge is to refactor the solution in your chosen language. GOOD LUCK!
+It's up to YOU how much time you spend on the problem, spend as little as 5 minutes (ie rename a couple of variables) or as long as an hour or two doing a full-refactor (ie rewrite the solution or train on the actual [codewars snail sort problem](https://www.codewars.com/kata/snail/train/)).
+
+NOTE - you don't _have_ to sign-up for codewars to participate, just copy the code in this project into IDE of your choice and go from there.
+
+Capture your solutions on Gitlab / Github / Bitbucket and bring it along to the COP meetup (12th November).
 
 ## Snail Sort problem
 
