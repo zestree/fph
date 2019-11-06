@@ -1,3 +1,40 @@
 # refactor-challenge
 
 This is a refactoring challenge created for the November 2019 COP meetup "Refactoring Techniques".
+
+The project contains code written in 4 languages (C, C++, C#, Javascript) in desperate need of some refactoring!
+
+The code solves the [Snail Sort problem](#snail-sort-problem) from [codewars](https://www.codewars.com/kata/snail/train/).
+
+You can assume there are no bugs in the code (well, it passes the provided unit tests!)
+
+Your challenge is to refactor the solution in your chosen language. GOOD LUCK!
+
+## Snail Sort problem
+
+Given an n x n array, return the array elements arranged from outermost elements to the middle element, travelling clockwise.
+
+```c
+array = [[1,2,3],
+         [4,5,6],
+         [7,8,9]]
+snail(array) #=> [1,2,3,6,9,8,7,4,5]
+```
+
+For better understanding, please follow the numbers of the next array consecutively:
+
+```c
+array = [[1,2,3],
+         [8,9,4],
+         [7,6,5]]
+snail(array) #=> [1,2,3,4,5,6,7,8,9]
+```
+
+This image will illustrate things more clearly:
+
+
+![snail](static/images/snail.png)
+
+NOTE: The idea is not sort the elements from the lowest value to the highest; the idea is to traverse the 2-d array in a clockwise snailshell pattern.
+
+NOTE 2: The 0x0 (empty matrix) is represented as en empty array inside an array [[]].
