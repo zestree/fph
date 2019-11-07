@@ -8,7 +8,7 @@ It's up to YOU how much time you spend on the problem, spend as little as 5 minu
 
 NOTE - you don't _have_ to sign-up for codewars to participate, just clone the repo or copy the code into IDE of your choice and go from there.
 
-Capture your solutions on Gitlab / Github / Bitbucket and bring it along to the COP meetup (12th November).
+Submit a merge request with your solution (to this project) or capture in on a fork on TFS / Azure Devops / Gitlab / Github / Bitbucket / SVN and bring it along to the COP meetup (12th November).
 
 ## Snail Sort problem
 
