@@ -3,7 +3,7 @@ public class SnailSolution
     public static int[] Snail(int[][] array)
     {
         var traverser = new Traverser(array);
-        int[] result = new int[array.Length * array[0].Length];
+        int[] result = new int[traverser.maxIteration];
 
         int iteration = 0;
         while (!traverser.IsDone())
@@ -31,7 +31,7 @@ class Traverser
     private Limit limit;
     private Position position;
     private int iteration;
-    private readonly int maxIteration;
+    public readonly int maxIteration;
 
     public Traverser(int[][] array)
     {
